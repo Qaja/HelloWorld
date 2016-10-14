@@ -20,3 +20,4 @@ ON M.Health_Plan_Identifier = HPC.HP_ID
  (Select Distinct M.Unique_Provider_ID from Member  M JOin Health_Plan_Code HPC
 ON M.Health_Plan_Identifier = HPC.HP_ID
  where HPC.LOGO is not null)A,
+Test
